@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             link: "https://www.youtube.com/watch?v=-tn2S3kJlyU"
         },
         {
-            src: "assets/Billie-sad.png", // Imagen para el estado Sad
+            src: "assets/billie-sad.png", // Imagen para el estado Sad
             backgroundColor: "#ffffff", // Otro color para esta imagen
             text: "La tristeza es solo una emoción temporal. Permítete sentir, pero recuerda que siempre hay espacio para la esperanza y la renovación.", // Billie Sad
             link: "https://www.youtube.com/watch?v=WiinVuzh4DA"

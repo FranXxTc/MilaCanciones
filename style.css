@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x: hidden;;
+    color: black;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.carousel{
+    padding: 5% 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.principalTextoContenido{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.principalTitulo{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px ;
+
+}
+
+.imagenHappier{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.imagenHappier:hover{
+    width: 180px;
+    transition: 0.5s;
+    
+}
+
+.principalParrafo{
+    max-width: 450px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+
+
+.principalParrafo2{
+    max-width: 450px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carousel-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #141414;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(56, 56, 56, 1);
+}
+
+.imagenHappier {
+    width: 200px;
+    transition: transform 0.5s;
+}
+
+.imagenHappier:hover {
+    transform: scale(1.1);
+}
